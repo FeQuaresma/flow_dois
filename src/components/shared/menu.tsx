@@ -3,25 +3,25 @@ import Link from 'next/link';
 
 function Menu() {
   return (
-    <div className="flex bg-black text-white justify-between p-6">
+    <div className="flex bg-black text-white justify-between p-3 text-xs">
       <div className="flex items-center gap-16">
         <Link href="/">
           <a><img className="h-20" src="https://cdn.flowpodcast.com.br/assets/images/logos/logo-header.png" alt="" /></a>
         </Link>
         <Link href="/">
-          <a className="hover:text-yellow-400">Raules</a>
+          <a className="hover:text-yellow-400">HOME</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-yellow-400">Xesque</a>
+          <a className="hover:text-yellow-400">MERCADO</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-yellow-400">Dele</a>
+          <a className="hover:text-yellow-400">EPISÓDIOS</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-yellow-400">Gruli</a>
+          <a className="hover:text-yellow-400">CONCURSOS</a>
         </Link>
         <Link href="/">
-          <a className="hover:text-yellow-400">Contato</a>
+          <a className="hover:text-yellow-400">MEMBROS</a>
         </Link>
       </div>
       <div className="flex items-center gap-4">
