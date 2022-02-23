@@ -24,6 +24,7 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "react/jsx-one-expression-per-line": "off",
         "jsx-a11y/anchor-is-valid": "off",
         "no-constant-condition": "off",
         "max-len": "off",
