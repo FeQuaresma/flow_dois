@@ -1,5 +1,5 @@
 import { FaTwitter, FaInstagram, FaYoutube, FaTwitch, FaSpotify, FaAmazon, FaApple, FaDiscord, FaRss } from 'react-icons/fa';
-import { Menu, SocialButton } from '../components/shared/index';
+import { Menu, SocialButton, Footer } from '../components/shared/index';
 
 function Home() {
   return (
@@ -67,6 +67,7 @@ function Home() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
